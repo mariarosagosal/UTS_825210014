@@ -1,0 +1,534 @@
+* {padding: 0; margin: 0}
+
+header {
+height: 100px;
+width: 100%;
+background: #F7ECDE;
+position: fixed;
+z-index: 1;
+-webkit-box-shadow: 0px 0.5px 1px #808080; 
+}
+
+header .pertama img {
+width: 90px;
+height: 90px;
+margin-left: 30px;
+margin-top: 5px;
+margin-right: 20px;
+float: left;
+}
+
+header .kedua .menu {
+margin-bottom: 20px;
+}
+
+header .kedua ul li {
+float: left;
+list-style: none;
+font-size: 15px;
+margin: 30px 0;
+padding-top: 10px;
+font-family: sans-serif;
+}
+
+header .kedua ul li:hover ul {
+background: #F7ECDE;
+opacity: 1;
+visibility: visible;
+}
+
+header .kedua ul li a {
+margin-right: 15px;
+text-decoration: none;
+color: black;
+padding: 3px 15px;
+transition: 0.2s ease-in-out;
+}
+
+header .kedua ul li a:hover {
+color: #18978F;
+}
+
+header .kedua ul li .panahbawah, .panahbawah1 {
+border: solid black;
+border-width: 0 1.5px 1.5px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(45deg);
+margin: 0 0 2px 7px;
+transition: 0.2s ease-in-out;
+}
+
+header .kedua ul li a:hover .panahbawah {
+border-color:#18978F;
+}
+
+header .kedua ul li a:hover .panahbawah1 {
+border-color:#18978F;
+}
+
+header .kedua ul li ul {
+opacity: 0;
+visibility: hidden;
+position: absolute;
+margin-left: -15px;
+transition: all 0.2s ease-in-out;
+}
+
+header .kedua ul li ul li {
+float: none;
+position: relative;
+margin-left: 13px;
+}
+
+header .ketiga img {
+float: right;
+width: 10px;
+margin: 43px 10px 0 10px;
+filter: invert(70%) sepia(74%) saturate(301%) hue-rotate(129deg) brightness(83%) contrast(83%);
+}
+
+header .ketiga h1 {
+float: right;
+margin: 35px 10px 0 0;
+font-size: 15px;
+border-right: 1.5px solid black;
+padding-right: 15px;
+line-height: 30px;
+}
+
+header .keempat img {
+margin: 43px 12px 0 10px;
+float: right;
+color: grey;
+width: 15px;
+filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(326deg) brightness(109%) contrast(90%);
+}
+
+header .keempat img:hover {
+filter: invert(71%) sepia(39%) saturate(3935%) hue-rotate(314deg) brightness(117%) contrast(95%);
+}
+
+header .kelima {
+width: 80px;
+height: 100px;
+background-color: #54BAB9;
+float: right;
+}
+
+header .kelima img {
+float: right;
+width: 20%;
+height: auto;
+margin: 43px 30px 0 0;
+}
+
+header .kelima img:hover {
+filter: invert(92%) sepia(98%) saturate(1522%) hue-rotate(292deg) brightness(115%) contrast(96%);
+}
+
+article .gbr {
+margin-top: 100px;
+position: relative;
+float: left;
+width: 100%;
+}
+
+article .gbr img {
+width: 100%;
+float: left;
+object-fit: cover;
+position: relative;
+height: 500px;
+}
+
+article .gbr .tulisan {
+width: 500px;
+height: auto;
+float: left;
+position: absolute;
+left: 50%;
+top: 35%;
+transform: translate(-50%, 0);
+}
+
+article .gbr .tulisan h1 {
+position: relative;
+left: 50%;
+float: left;
+transform: translate(-50%, 0);
+font-size: 100px;
+font-family: inherit;
+font-style: italic;
+text-align: center;
+color: whitesmoke;
+cursor: default;
+font-weight: 1px;
+}
+
+article .gbr .tulisan p {
+position: relative;
+left: 50%;
+margin-top: 5px;
+float: left;
+transform: translate(-50%, 0);
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+color: whitesmoke;
+cursor: default;
+}
+
+article .peta {
+margin-top: 100px;
+width: 100%;
+height: 450px;
+position: relative;
+float: left;
+margin-bottom: 100px;
+}
+
+article .peta iframe {
+width: 1000px;
+height: 450px;
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+article .info {
+width: 100%;
+height: 450px;
+position: relative;
+float: left;
+margin-bottom: 100px;
+}
+
+article .info .isi {
+width: 1200px;
+position: absolute;
+float: left;
+height: 450px;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+article .info .kiri {
+width: 678px;
+height: 500px;
+position: relative;
+float: left;
+left: 9%;
+}
+
+article .info .kiri h1 {
+font-family: sans-serif;
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+article .info .kiri textarea {
+font-family: sans-serif;
+margin-bottom: 5px;
+width: 545px;
+height: 150px;
+}
+
+article .info .kiri textarea.inputText {
+padding-left: 5px; 
+}
+
+article .info .kiri input {
+line-height: 35px;
+width: 256.5px;
+margin-right: 20px;
+margin-bottom: 5px;
+}
+
+article .info .kiri input.inputText {
+padding-left: 5px; 
+}
+
+article .info .kiri .sub input {
+width: 545px;
+margin-bottom: 20px;
+}
+
+article .info .kiri button {
+width: 120px;
+background-color: #54BAB9;
+height: 40px;
+border-style: none;
+font-family: sans-serif;
+color: whitesmoke;
+transition: 0.2s ease-in-out;
+}
+
+article .info .kiri button:hover {
+background-color: indianred;
+}
+
+article .info .kiri a {
+text-decoration: none;
+color: whitesmoke;
+}
+
+article .info .kanan {
+float: left;
+position: absolute;
+width: 220px;
+height: 500px;
+left: 72.2%;
+top: 10%;
+}
+
+article .info .kanan .foto {
+position: relative;
+}
+
+article .info .kanan .foto img {
+width: 35px;
+filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(326deg) brightness(109%) contrast(90%);
+}
+
+article .info .kanan .text {
+font-family: sans-serif;
+position: relative;
+left: 23%;
+top: -7%;
+}
+
+article .info .kanan .text h1 {
+font-size: 15px;
+}
+
+article .info .kanan .text p {
+font-size: 15px;
+color: grey;
+margin-top: 5px;
+}
+
+
+footer {
+width: 100%;
+float: left;
+height: 600px;
+position: relative;
+background-color: #DCF1F1;
+}
+
+footer .atas {
+width: 100%;
+position: absolute;
+float: left;
+top: 20%;
+}
+
+footer .atas .kotak1 {
+position: relative;
+width: 1100px;
+height: 300px;
+top: 20%;
+left: 50%;
+transform: translate(-50%, 0);
+float: left;
+}
+
+footer .atas .alamat {
+height: 250px;
+width: 210px;
+float: left;
+margin-left: 40px;
+}
+
+footer .atas .alamat .travelia img {
+width: 70px;
+height: 70px;
+float: left;
+}
+
+footer .atas .alamat p {
+margin-top: 20px;
+font-family: sans-serif;
+font-size: 14px;
+float: left;
+}
+
+footer .atas .alamat span {
+font-family: sans-serif;
+font-size: 14px;
+display: block;
+margin-top: 7px;
+float: left;
+}
+
+footer .atas .alamat .sosmed  {
+float: left;
+margin-top: 60px;
+}
+
+footer .atas .alamat .sosmed img {
+height: 15px;
+float: left;
+margin-right: 18px;
+filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(326deg) brightness(109%) contrast(90%);
+transition: 0.2s ease-in-out;
+}
+
+footer .atas .alamat .sosmed img:hover {
+filter: invert(71%) sepia(39%) saturate(3935%) hue-rotate(314deg) brightness(117%) contrast(95%);
+}
+
+footer .company {
+width: 120px;
+float: left;
+margin-left: 80px;
+}
+
+footer .company h1 {
+font-family: sans-serif;
+font-size: 22px;
+margin-bottom: 40px;
+}
+
+footer .company a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+text-decoration: none;
+color: black;
+}
+
+footer .company a:hover {
+color: indianred;
+}
+
+footer .company p {
+margin-top: 12px;
+}
+
+footer .popular {
+width: 210px;
+float: left;
+margin-left: 70px;
+}
+
+footer .popular h1 {
+font-family: sans-serif;
+font-size: 22px;
+text-align: left;
+margin-bottom: 40px;
+}
+
+footer .popular .kiri {
+width: 60px;
+float: left;
+}
+
+footer .popular .kiri a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+}
+
+footer .popular .kiri a:hover {
+color: indianred;
+}
+
+footer .popular .kiri p {
+margin-bottom: 12px;
+}
+
+footer .popular .kanan {
+width: 90px;
+float: left;
+padding-left: 60px;
+}
+
+footer .popular .kanan a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+}
+
+footer .popular .kanan a:hover {
+color: indianred;
+}
+
+footer .popular .kanan p {
+margin-bottom: 12px;
+}
+
+footer .popular a {
+text-decoration: none;
+color: black;
+}
+
+footer .instagram {
+height: 250px;
+width: 270px;
+float: left;
+margin-left: 70px;  
+}
+
+footer .instagram h1 {
+font-family: sans-serif;
+font-size: 22px;
+margin-bottom: 40px;
+}
+
+footer .instagram .b1 {
+width: 300px;
+float: left;
+}
+
+footer .instagram .b2 {
+width: 300px;
+float: left;
+margin-top: 20px;
+}
+
+footer .instagram .foto4 {
+width: 80px;
+height: 80px;
+float: left;
+margin-right: 15px;
+}
+
+footer .instagram .foto4 img {
+width: 100%;
+height: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+footer .bawah {
+width: 100%;
+position: absolute;
+float: left;
+bottom: 5%;
+}
+
+footer .bawah .isi {
+width: 1050px;
+position: relative;
+border-top: 1px solid grey;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+footer .bawah .isi p {
+text-align: center;
+font-size: 14px;
+margin-top: 20px;
+font-family: sans-serif;
+}
+
+footer .bawah .isi a {
+text-decoration: none;
+color: #18978F;
+font-family: sans-serif;
+}

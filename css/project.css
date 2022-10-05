@@ -1,0 +1,1327 @@
+* {padding: 0; margin: 0}
+
+header {
+height: 100px;
+width: 100%;
+background: #F7ECDE;
+position: fixed;
+z-index: 2;
+-webkit-box-shadow: 0px 0.5px 1px #808080; 
+}
+
+header .pertama img {
+width: 90px;
+height: 90px;
+margin-left: 30px;
+margin-top: 5px;
+margin-right: 20px;
+float: left;
+}
+
+header .kedua .menu {
+margin-bottom: 20px;
+}
+
+header .kedua ul li {
+float: left;
+list-style: none;
+font-size: 15px;
+margin: 30px 0;
+padding-top: 10px;
+font-family: sans-serif;
+}
+
+header .kedua ul li:hover ul {
+background: #F7ECDE;
+opacity: 1;
+visibility: visible;
+}
+
+header .kedua ul li a {
+margin-right: 15px;
+text-decoration: none;
+color: black;
+padding: 3px 15px;
+transition: 0.2s ease-in-out;
+}
+
+header .kedua ul li a:hover {
+color: #18978F;
+}
+
+header .kedua ul li .panahbawah, .panahbawah1 {
+border: solid black;
+border-width: 0 1.5px 1.5px 0;
+display: inline-block;
+padding: 3px;
+transform: rotate(45deg);
+margin: 0 0 2px 7px;
+transition: 0.2s ease-in-out;
+}
+
+header .kedua ul li a:hover .panahbawah {
+border-color:#18978F;
+}
+
+header .kedua ul li a:hover .panahbawah1 {
+border-color:#18978F;
+}
+
+header .kedua ul li ul {
+opacity: 0;
+visibility: hidden;
+position: absolute;
+margin-left: -15px;
+transition: all 0.2s ease-in-out;
+}
+
+header .kedua ul li ul li {
+float: none;
+position: relative;
+margin-left: 13px;
+}
+
+header .ketiga img {
+float: right;
+width: 10px;
+margin: 43px 10px 0 10px;
+filter: invert(70%) sepia(74%) saturate(301%) hue-rotate(129deg) brightness(83%) contrast(83%);
+}
+
+header .ketiga h1 {
+float: right;
+margin: 35px 10px 0 0;
+font-size: 15px;
+border-right: 1.5px solid black;
+padding-right: 15px;
+line-height: 30px;
+}
+
+header .keempat img {
+margin: 43px 12px 0 10px;
+float: right;
+color: grey;
+width: 15px;
+filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(326deg) brightness(109%) contrast(90%);
+}
+
+header .keempat img:hover {
+filter: invert(71%) sepia(39%) saturate(3935%) hue-rotate(314deg) brightness(117%) contrast(95%);
+}
+
+header .kelima {
+width: 80px;
+height: 100px;
+background-color: #54BAB9;
+float: right;
+}
+
+header .kelima img {
+float: right;
+width: 20%;
+height: auto;
+margin: 43px 30px 0 0;
+}
+
+header .kelima img:hover {
+filter: invert(92%) sepia(98%) saturate(1522%) hue-rotate(292deg) brightness(115%) contrast(96%);
+}
+
+article .gbr {
+float: left;
+position: relative; 
+width: 100%; 
+margin-top: 100px; 
+height: 700px;
+}
+
+article .gbr input {
+display: none;
+}
+
+article .gbr1 {
+position: absolute; 
+width: 100%; 
+transition: opacity 0.8s; 
+height: 700px; 
+opacity: 0;
+}
+
+article .gbr2 {
+position: absolute; 
+width: 100%; 
+transition: opacity 0.8s; 
+height: 700px; 
+opacity: 0;
+}
+
+article .gbr3 {
+position: absolute; 
+width: 100%; 
+transition: opacity 0.8s; 
+height: 700px; 
+opacity: 0;
+}
+
+article .gbr1 img, .gbr2 img, .gbr3 img {
+width: 100%;
+float: left;
+object-fit: cover;
+position: relative;
+height: 700px;
+}
+
+article .gbr1 .tulisan, .gbr2 .tulisan, .gbr3 .tulisan {
+width: 500px;
+height: auto;
+float: left;
+position: absolute;
+left: 50%;
+top: 30%;
+transform: translate(-50%, 0);
+}
+
+article .gbr1 .tulisan h1, .gbr2 .tulisan h1, .gbr3 .tulisan h1 {
+position: relative;
+left: 50%;
+float: left;
+transform: translate(-50%, 0);
+font-size: 130px;
+font-family: inherit;
+font-style: italic;
+text-align: center;
+color: whitesmoke;
+cursor: default;
+font-weight: 1px;
+}
+
+article .gbr1 .tulisan p, .gbr2 .tulisan p, .gbr3 .tulisan p {
+position: relative;
+left: 50%;
+margin-top: 5px;
+float: left;
+transform: translate(-50%, 0);
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+color: whitesmoke;
+cursor: default;
+}
+
+article .gbr button {
+background-color: #54BAB9;
+position: relative;
+left: 50%;
+top: 65%;
+transform: translate(-50%, 0);
+border: none;
+color: whitesmoke;
+padding: 20px;
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+width: 160px;
+border-radius: 10px;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+
+article .gbr button:hover {
+background-color: indianred;
+}
+
+article .right, .left {
+width: 50px;
+height: 120px; 
+line-height: 120px; 
+position: absolute; 
+top: 50%; 
+transform: translate(0,-50%);
+background: whitesmoke; 
+color: black; 
+opacity: 20%; 
+transition: 0.2s ease-in-out; 
+cursor: pointer; 
+font-size: 20px;
+text-align: center; 
+font-weight: bolder;
+z-index: 1; 
+}
+
+article .right {
+right: 0;
+}
+
+article .left {
+left: 0;
+}
+
+article .right:hover, .left:hover {
+background-color:  whitesmoke; 
+color: black; 
+opacity: 70%;
+transition: 0.2s ease-in-out;
+}
+
+#satu:checked~#gbr1 {
+opacity: 1;
+}
+
+#dua:checked~#gbr2 {
+opacity: 1;
+}
+
+#tiga:checked~#gbr3 {
+opacity: 1;
+}
+
+article .search {
+background-color: #202A44;
+height: 150px;
+width: 100%;
+float: left;
+line-height: 150px;
+position: relative;
+}
+
+article .search .isi {
+width: 1200px;
+float: left;
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+article .search .isi p {
+font-size: 22px;
+font-family: sans-serif;
+color: lightgray;
+display: inline;
+text-align: center;
+margin-left: 40px;
+margin-right: 20px;
+}
+
+article .search .isi input {
+line-height: 35px;
+height: 35px;
+width: 230px;
+font-size: 15px;
+border-radius: 5px;
+background-color: #202A44;
+color: grey;
+border-color: #F7ECDE;
+margin-left: 10px;
+padding-left: 10px;
+}
+
+article .search .isi input::placeholder {
+color: grey;
+}
+
+article .search .isi input.inputText {
+text-align: left;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.4);
+}
+
+/*
+input[type=""]:before {
+color: grey;
+font-size: 15px;
+text-align: center;
+padding-left: 10px;
+font-family: sans-serif;
+content: attr(placeholder) !important;
+}
+
+input[type='date']:in-range::-webkit-datetime-edit-year-field,
+input[type='date']:in-range::-webkit-datetime-edit-month-field,
+input[type='date']:in-range::-webkit-datetime-edit-day-field,
+input[type='date']:in-range::-webkit-datetime-edit-text {
+color: transparent;
+}*/
+
+article .search .isi select {
+margin-left: 10px;
+width: 200px;
+border-radius: 5px;
+background-color: #202A44;
+color: grey;
+border-color: #F7ECDE;
+height: 38px;	
+border-width: 2px;
+font-size: 15px;
+cursor: pointer;
+padding-left: 5px;
+}
+
+article .search .isi select:selection {
+color: lightgray;
+}
+
+article .search .isi button {
+margin-left: 10px;
+line-height: 40px;
+text-align: center;
+font-size: 15px;
+width: 140px;
+border-radius: 5px;
+background-color: indianred;
+color: whitesmoke;
+height: 40px;
+border-style: none;	
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+
+article .search .isi button:hover {
+background-color: #54BAB9;
+color: whitesmoke;
+}
+
+article .gallery1 {
+padding-top: 100px;
+width: 100%;
+float: left;
+padding-bottom: 100px;
+height: 650px;
+position: relative;
+}
+
+article .gallery1 h1 {
+text-align: center;
+font-size: 45px;
+font-family: sans-serif;
+}
+
+article .gallery1 p {
+text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+padding-bottom: 20px;
+}
+
+article .gallery1 span {
+text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+display: block;
+margin-top: 5px;
+}
+
+/*article .gallery1 .kotakgede {
+width: 100%;
+float: left;
+position: absolute;
+}*/
+
+article .gallery1 .baris1 {
+width: 1200px;
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+float: left;
+}
+
+article .gallery1 .baris2 {
+width: 1200px;
+position: absolute;
+left: 50%;
+top: 58%;
+float: left;
+transform: translate(-50%, 0);
+}
+
+article .gallery1 .foto {
+width: 320px;
+float: left;
+margin: 16px;
+position: relative;
+left: 9%;
+transform: translate(-9%, 0);
+}
+
+.foto img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+transition: 0.2s ease-in-out;
+}
+
+.foto .judul {
+position: absolute;
+width: 20%;
+height: auto;
+bottom: 15%;
+left: 6%;
+border-radius: 50%;
+font-size: 20px;
+color: whitesmoke;
+text-align: center;
+padding: 6px;
+font-family: sans-serif;
+transition: 0.2s ease-in-out;
+}
+
+.baris1 .foto .places1, .places2, .places3 {
+position: absolute;
+width: 27%;
+height: auto;
+bottom: 18%;
+border-radius: 50%;
+font-size: 15px;
+color: whitesmoke;
+text-align: center;
+padding: 2px;
+background-color: #54BAB9;
+border-radius: 20px;
+transition: 0.2s ease-in-out;
+}
+
+.baris2 .foto .places4, .places5, .places6 {
+position: absolute;
+width: 27%;
+height: auto;
+bottom: 18%;
+border-radius: 50%;
+font-size: 15px;
+color: whitesmoke;
+text-align: center;
+padding: 2px;
+background-color: #54BAB9;
+border-radius: 20px;
+transition: 0.2s ease-in-out;
+}
+
+.foto .places1 {
+left: 30%;
+}
+
+.foto .places2 {
+left: 40%;
+}
+
+.foto .places3 {
+left: 38%;
+}
+
+.foto .places4 {
+left: 30%;
+}
+
+.foto .places5 {
+left: 30%;
+}
+
+.foto .places6 {
+left: 27%;
+}
+
+.foto:hover img {
+transform: translate(0px, -10px);
+}
+
+.foto:hover .judul {
+color: indianred;
+transform: translate(0px, -10px);
+}
+
+.baris1 .foto:hover .places1 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.baris1 .foto:hover .places2 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.baris1 .foto:hover .places3 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.baris2 .foto:hover .places4 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.baris2 .foto:hover .places5 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.baris2 .foto:hover .places6 {
+transform: translate(0px, -10px);
+background-color: indianred;
+}
+
+.subscribe {
+width: 100%;
+height: auto;
+float: left;
+position: relative;
+}
+
+.subscribe img {
+width: 100%;
+float: left;
+position: relative;
+height: 200px;
+object-fit: cover;
+}
+
+.subscribe .isisub {
+width: 1200px;
+height: 260px;
+float: left;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+.subscribe .isisub h1 {
+position: absolute;
+float: left;
+font-size: 25px;
+font-family: sans-serif;
+left: 8%;
+top: 30%;
+}
+
+.subscribe .isisub p {
+position: absolute;
+float: left;
+font-size: 16.5px;
+left: 8%;
+top: 50%;
+font-family: sans-serif;
+}
+
+.subscribe .isisub span { 
+position: absolute;
+float: left;
+font-size: 17px;
+display: block;
+left: 0.75%;
+margin-top: 10px;
+}
+
+.subscribe .isisub input {
+position: absolute;
+float: left;
+line-height: 35px;
+height: 50px;
+width: 380px;
+font-size: 15px;
+border-radius: 5px;
+color: black;
+border-style: none;
+padding-left: 10px;
+left: 45%;
+top: 40%;
+}
+
+.subscribe .isisub button {
+position: absolute;
+float: left;
+background-color: indianred;
+left: 79%;
+top: 40%;
+border: none;
+color: whitesmoke;
+font-size: 15px;
+text-align: center;
+text-decoration: none;
+width: 160px;
+height: 50px;
+border-style: none;
+border-radius: 5px;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.subscribe .isisub button:hover {
+background-color: #54BAB9;
+}
+
+article .gallery2 {
+padding-top: 170px;
+width: 100%;
+float: left;
+height: 1200px;
+position: relative;
+}
+
+article .gallery2 h1 {
+text-align: center;
+font-size: 45px;
+font-family: sans-serif;
+}
+
+article .gallery2 p {
+text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+padding-bottom: 60px;
+}
+
+article .gallery2 span {
+text-align: center;
+font-size: 18px;
+font-family: sans-serif;
+display: block;
+margin-top: 5px;
+}
+
+article .gallery2 .barisatas {
+width: 1150px;
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0);
+float: left;
+}
+
+article .gallery2 .barisbawah {
+width: 1150px;
+position: absolute;
+left: 50%;
+top: 54%;
+float: left;
+transform: translate(-50%, 0);
+}
+
+article .gallery2 .foto2 {
+width: 350px;
+float: left;
+margin: 16px;
+position: relative;
+padding-bottom: 120px;
+background-color: #E9DAC1;
+border-radius: 10px;
+}
+
+article .gallery2 .foto2:hover {
+-webkit-box-shadow: 0px 0.5px 1px #808080; 
+}
+
+.foto2 img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+transition: 0.2s ease-in-out;
+}
+
+.foto2 .judul {
+float: left;
+}
+
+.foto2 .judul h1 {
+font-size: 26px;
+text-align: left;
+float: left;
+position: absolute;
+top: 70%;
+left: 5%;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.foto2 .judul h2 {
+font-size: 17px;
+text-align: left;
+float: left;
+position: absolute;
+top: 80%;
+left: 5%;
+font-weight: normal;
+}
+
+.foto2 .judul h3 {
+font-size: 17px;
+text-align: left;
+float: left;
+position: absolute;
+top: 88%;
+left: 5%;
+filter: invert(37%) sepia(21%) saturate(4725%) hue-rotate(5deg) brightness(93%) contrast(101%);
+cursor: default;
+}
+
+.foto2 .judul h4 {
+font-size: 17px;
+text-align: left;
+float: left;
+position: absolute;
+top: 88.5%;
+left: 28%;
+font-weight: normal;
+}
+
+.foto2 .judul .jam img {
+width: 15px;
+float: left;
+position: absolute;
+top: 90.75%;
+left: 71%;
+}
+
+.foto2 .judul p {
+font-size: 15px;
+font-weight: 1px;
+text-align: left;
+float: left;
+position: absolute;
+top: 90%;
+left: 78%;
+cursor: pointer;
+}
+
+.foto2 .harga {
+position: absolute;
+float: left;
+width: 20%;
+border-radius: 20px;
+font-size: 15px;
+color: whitesmoke;
+text-align: center;
+background-color: #54BAB9;
+line-height: 37px;
+height: 37px;
+top: 5%;
+left: 5%;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.foto2:hover .harga {
+background-color: indianred;
+}
+
+.foto2:hover .judul h1 {
+color: indianred;
+}
+
+.gallery2 button {
+background-color: #54BAB9;
+border: none;
+color: whitesmoke;
+font-size: 17px;
+text-align: center;
+text-decoration: none;
+width: 160px;
+border-radius: 10px;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+height: 50px;
+line-height: 50px;
+float: left;
+position: relative;
+left: -23%;
+margin-top: 50px;
+}
+
+.gallery2 button:hover {
+background-color: indianred;
+}
+
+.vid {
+width: 100%;
+float: left;
+height: auto;
+position: relative;
+padding-bottom: 70px;
+}
+
+.vid img {
+width: 100%;
+float: left;
+object-fit: cover;
+position: relative;
+height: 700px;
+}
+
+.vid .isivid {
+width: 650px;
+float: left;
+position: absolute;
+left: 50%;
+top: 27%;
+transform: translate(-50%, 0);
+}
+
+.vid h1 {
+position: relative;
+left: 50%;
+float: left;
+font-size: 90px;
+font-family: 'Papyrus', fantasy;
+transform: translate(-50%, 0%);
+font-style: italic;
+text-align: center;
+color: whitesmoke;
+cursor: default;
+font-weight: 1px;
+}
+
+.vid .play img {
+position: relative;
+left: 50%;
+margin-top: 20px;
+transform: translate(-50%, 0%);
+float: left;
+width: 150px;
+height: 150px;
+}
+
+.more {
+width: 100%;
+float: left;
+position: relative;
+height: 300px;
+}
+
+.more .kotakmore {
+width: 1050px;
+float: left;
+position: absolute;
+left: 50%;
+top: 20%;
+transform: translate(-50%, 0);
+}
+
+.more .journey, .hotel, .guide {
+width: 350px;
+position: relative;
+float: left;
+height: auto;
+}
+
+.more .gambar img {
+width: 65px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+filter: invert(46%) sepia(90%) saturate(389%) hue-rotate(127deg) brightness(88%) contrast(91%);
+}
+
+.more .judul h1 {
+font-size: 20px;
+font-family: sans-serif;
+text-align: center;
+margin-top: 30px;
+}
+
+.more .judul p {
+margin-top: 20px;
+font-size: 15px;
+font-family: sans-serif;
+text-align: center;
+}
+
+.quote {
+float: left; 
+width: 100%;
+height: auto;
+margin-top: 70px;
+background-color: #DCF1F1;
+}
+
+.quote .mid {
+width: 100%; 
+float: left; 
+position: relative; 
+height: 500px;
+}
+
+.quote .mid .slideshow {
+float: left; 
+width: 1250px; 
+overflow: hidden; 
+position: absolute; 
+left: 50%; 
+transform: translate(-50%, 0);
+}
+
+.quote .mid .slideshow input {
+display: none;
+}
+
+.quote .mid .slideshow .box {
+height: 500px; 
+float: left; 
+transition: all 0.5s ease;
+}
+
+.quote .mid .slideshow .box .isi {
+width: 1250px; 
+padding-bottom: 135px; 
+float: left;
+margin-top: -25px;
+}
+
+.quote .mid .slideshow .box .isi img {
+width: 100px;
+display: block; 
+margin-left: auto; 
+margin-right: auto; 
+padding-top: 135px; 
+}
+
+.quote .mid .slideshow .box .isi h1 {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 30px;
+font-family: sans-serif;
+font-weight: normal;
+font-size: 18px;
+}
+
+.quote .mid .slideshow .box .isi p {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 30px;
+font-family: sans-serif;
+font-weight: normal;
+font-size: 15px;
+color: grey;
+}
+
+.quote .mid .slideshow .dots {
+display: flex; 
+margin: 5px; 
+position: absolute; 
+bottom: 12%; 
+left: 47%;
+}
+
+.quote .mid .slideshow .dots label {
+height: 12px; 
+width: 12px; 
+border-radius: 50%; 
+cursor: pointer; 
+margin: 5px;  
+transition: all 0.2s ease; 
+background-color: #18978F;
+}
+
+#micky:checked~ .box {
+margin-left: 0px;
+}
+
+#tom:checked~ .box {
+margin-left: -1250px;
+}
+
+#jerry:checked~ .box {
+margin-left: -2500px;
+}
+
+#micky:checked~ .dots label#satu {
+background-color: indianred; 
+}
+
+#tom:checked~ .dots label#dua {
+background-color: indianred; 
+}
+
+#jerry:checked~ .dots label#tiga {
+background-color: indianred; 
+}
+
+.recenttrips {
+padding-top: 130px;
+width: 100%;
+float: left;
+padding-bottom: 100px;
+height: 430px;
+position: relative;
+}
+
+.recenttrips h1 {
+text-align: center;
+font-size: 40px;
+font-family: sans-serif;
+font-weight: normal;
+}
+
+article .recenttrips .isirt {
+width: 1200px;
+position: absolute;
+left: 50%;
+top: 33%;
+float: left;
+transform: translate(-50%, 0);
+}
+
+article .recenttrips .isirt .foto3 {
+width: 340px;
+float: left;
+margin: 16px;
+position: relative;
+left: 6.5%;
+transform: translate(-7%, 0);
+}
+
+article .recenttrips .isirt .foto3 .tulisanrt p {
+font-family: sans-serif;
+font-weight: normal;
+font-size: 13px;
+margin-top: 15px;
+color: grey;
+}
+
+article .recenttrips .isirt .foto3 .tulisanrt h2 {
+font-family: sans-serif;
+font-weight: normal;
+font-size: 22px;
+margin-top: 10px;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.foto3 img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+.recenttrips .isirt .foto3:hover .tulisanrt h2 {
+color: indianred;
+}
+
+.tulisanrt h2:hover {
+color: indianred;
+}
+
+footer {
+width: 100%;
+float: left;
+height: 600px;
+position: relative;
+background-color: #DCF1F1;
+}
+
+footer .atas {
+width: 100%;
+position: absolute;
+float: left;
+top: 20%;
+}
+
+footer .atas .kotak1 {
+position: relative;
+width: 1100px;
+height: 300px;
+top: 20%;
+left: 50%;
+transform: translate(-50%, 0);
+float: left;
+}
+
+footer .atas .alamat {
+height: 250px;
+width: 210px;
+float: left;
+margin-left: 40px;
+}
+
+footer .atas .alamat .travelia img {
+width: 70px;
+height: 70px;
+float: left;
+}
+
+footer .atas .alamat p {
+margin-top: 20px;
+font-family: sans-serif;
+font-size: 14px;
+float: left;
+}
+
+footer .atas .alamat span {
+font-family: sans-serif;
+font-size: 14px;
+display: block;
+margin-top: 7px;
+float: left;
+}
+
+footer .atas .alamat .sosmed  {
+float: left;
+margin-top: 60px;
+}
+
+footer .atas .alamat .sosmed img {
+height: 15px;
+float: left;
+margin-right: 18px;
+filter: invert(49%) sepia(1%) saturate(0%) hue-rotate(326deg) brightness(109%) contrast(90%);
+transition: 0.2s ease-in-out;
+}
+
+footer .atas .alamat .sosmed img:hover {
+filter: invert(71%) sepia(39%) saturate(3935%) hue-rotate(314deg) brightness(117%) contrast(95%);
+}
+
+footer .company {
+width: 120px;
+float: left;
+margin-left: 80px;
+}
+
+footer .company h1 {
+font-family: sans-serif;
+font-size: 22px;
+margin-bottom: 40px;
+}
+
+footer .company a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+text-decoration: none;
+color: black;
+}
+
+footer .company a:hover {
+color: indianred;
+}
+
+footer .company p {
+margin-top: 12px;
+}
+
+footer .popular {
+width: 210px;
+float: left;
+margin-left: 70px;
+}
+
+footer .popular h1 {
+font-family: sans-serif;
+font-size: 22px;
+text-align: left;
+margin-bottom: 40px;
+}
+
+footer .popular .kiri {
+width: 60px;
+float: left;
+}
+
+footer .popular .kiri a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+}
+
+footer .popular .kiri a:hover {
+color: indianred;
+}
+
+footer .popular .kiri p {
+margin-bottom: 12px;
+}
+
+footer .popular .kanan {
+width: 90px;
+float: left;
+padding-left: 60px;
+}
+
+footer .popular .kanan a {
+font-family: sans-serif;
+font-size: 14px;
+transition: 0.2s ease-in-out;
+margin-bottom: 15px;
+}
+
+footer .popular .kanan a:hover {
+color: indianred;
+}
+
+footer .popular .kanan p {
+margin-bottom: 12px;
+}
+
+footer .popular a {
+text-decoration: none;
+color: black;
+}
+
+footer .instagram {
+height: 250px;
+width: 270px;
+float: left;
+margin-left: 70px;  
+}
+
+footer .instagram h1 {
+font-family: sans-serif;
+font-size: 22px;
+margin-bottom: 40px;
+}
+
+footer .instagram .b1 {
+width: 300px;
+float: left;
+}
+
+footer .instagram .b2 {
+width: 300px;
+float: left;
+margin-top: 20px;
+}
+
+footer .instagram .foto4 {
+width: 80px;
+height: 80px;
+float: left;
+margin-right: 15px;
+}
+
+footer .instagram .foto4 img {
+width: 100%;
+height: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+footer .bawah {
+width: 100%;
+position: absolute;
+float: left;
+bottom: 5%;
+}
+
+footer .bawah .isi {
+width: 1050px;
+position: relative;
+border-top: 1px solid grey;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+footer .bawah .isi p {
+text-align: center;
+font-size: 14px;
+margin-top: 20px;
+font-family: sans-serif;
+}
+
+footer .bawah .isi a {
+text-decoration: none;
+color: #18978F;
+font-family: sans-serif;
+}
