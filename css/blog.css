@@ -357,6 +357,7 @@ padding: 15px 20px;
 border: 1px solid lightgray;
 margin-right: 10px;
 font-family: sans-serif;
+color: black;
 }
 
 article .pagination a:hover p {
